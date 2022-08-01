@@ -76,8 +76,8 @@
     grid-template-columns: 1fr;
   }
 
-  .introducao img {
-    /*display: none;*/
+  /*.introducao img {
+    display: none;
     
-  }
+  }*/
 }
