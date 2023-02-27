@@ -1,3 +1,4 @@
-function name(params) {
+const action = "";
+array.forEach((element) => {
   console.log();
-}
+});
