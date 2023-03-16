@@ -1,13 +1,13 @@
 .fadeInDown {
-  transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -100px, 0);
 }
 
 .fadeInUp {
-  transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 100px, 0);
 }
 
 .fadeInRight {
-  transform: translate3d(20px, 0, 0);
+  transform: translate3d(200px, 0, 0);
 }
 
 .fadeInLeft {
@@ -22,4 +22,40 @@
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  to {
+    opacity: 1;
+    max-height: 200px
+  }
+}
+
+.js .js-scroll {
+  opacity: 0;
+  transform: translate3d(-2000px, 0, 0);
+  transition: 1s;
+}
+
+.js .js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
+}
+
+.js .tecnologo {
+  opacity: 0;
+  transform: translate3d(1000px, 0, 0);
+  transition: 1.6s;
+}
+
+.js .tecnologo.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 1.6s;
 }
