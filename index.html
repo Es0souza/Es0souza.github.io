@@ -19,6 +19,9 @@
       href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.className += " js";
+    </script>
   </head>
 
   <body>
@@ -29,11 +32,17 @@
         width="136px"
         height="29px"
       />
-      <nav>
+      <nav class="js-menu">
         <ul class="header__menu">
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li data-anime="1000" class="fadeInDown">
+            <a href="#experiencia">Experiência</a>
+          </li>
+          <li data-anime="1000" class="fadeInUp">
+            <a href="#formacao">Formação</a>
+          </li>
+          <li data-anime="1000" class="fadeInDown">
+            <a href="#contato">Contato</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -46,11 +55,10 @@
         height="350px"
         alt="Ilustração de um Notebook"
       />
-      <div>
+      <div data-anime="500" class="fadeInRight">
         <h1>
           Desenvolvedor <br />
-          Front End & <br />
-          UX/UI Designer
+          Front End Jr
         </h1>
         <p>Localizado no Rio de Janeiro</p>
       </div>
@@ -58,7 +66,7 @@
 
     <section class="experiencia" id="experiencia" aria-label="Experiência">
       <h2 class="subtitulo">Experiência</h2>
-      <div>
+      <div data-anime="1500" class="fadeInRight">
         <p class="experiencia__texto">
           Desenvolvo pequenos projetos como o Bikcraft Utilizando apenas
           <strong> HTML</strong>,<strong>CSS</strong> e
@@ -68,7 +76,7 @@
         </p>
       </div>
 
-      <div class="empresa">
+      <div data-anime="2200" class="empresa fadeInRight">
         <span class="empresa__ano">2022</span>
         <h3 class="empresa__titulo">Bikcraft</h3>
         <span class="empresa__titulo">Desenvolvedor Júnior</span>
@@ -85,7 +93,7 @@
         </ul>
       </div>
 
-      <div class="empresa">
+      <div data-anime="2400" class="empresa fadeInRight">
         <span class="empresa__ano">2022</span>
         <h3 class="empresa__titulo">Surfbot</h3>
         <span class="empresa__titulo">Desenvolvedor Júnior</span>
@@ -102,7 +110,7 @@
         </ul>
       </div>
 
-      <div class="empresa">
+      <div data-anime="2600" class="empresa fadeInRight">
         <span class="empresa__ano">2022</span>
         <h3 class="empresa__titulo">Caravan</h3>
         <span class="empresa__titulo">Desenvolvedor Júnior</span>
@@ -120,16 +128,15 @@
       </div>
     </section>
 
-    <section class="formacao" id="formacao" aria-label="Formação">
+    <section class="formacao js-scroll" id="formacao" aria-label="Formação">
       <div class="formacao__container">
         <h2 class="subtitulo">Formação</h2>
 
         <div>
           <p class="formacao__texto">
-            Minha mais recente experiência tecnóloga foi um curso intensivo 📚
-            voltado para <strong>front end</strong> na <strong>Alura</strong>.
-            Além disso me mantenho sempre atualizado com cursos intensivos
-            online.
+            Minha mais recente experiência acadêmica está sendo o
+            <strong>bacharelado</strong> em Engenharia de Software. 📚 Além
+            disso me mantenho sempre atualizado com cursos intensivos online.
           </p>
 
           <ul class="tecnologo__lista">
@@ -146,9 +153,9 @@
               <span class="tecnologo__instituicao">Alura</span>
             </li>
             <li class="tecnologo">
-              <span class="tecnologo__tipo">Tecnólogo</span>
-              <h3 class="tecnologo__curso">Formação Acessibilidade Web</h3>
-              <span class="tecnologo__instituicao">Alura</span>
+              <span class="tecnologo__tipo">Bacharel</span>
+              <h3 class="tecnologo__curso">Engenharia de Software</h3>
+              <span class="tecnologo__instituicao">UNESA</span>
             </li>
           </ul>
 
@@ -188,5 +195,8 @@
         <p class="footer__copy">Castroooed. Alguns direitos reservados.</p>
       </div>
     </footer>
+
+    <script src="script/plugins/simple-anime.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
