@@ -1,0 +1,12 @@
+.cursos {
+   margin-bottom: 60px;
+}
+
+.cursos h3::before {
+   background: url(../../img/cursos-intensivos.svg) no-repeat center center;
+}
+
+.cursos li {
+   display: flex;
+   justify-content: space-between;
+}

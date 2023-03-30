@@ -1,0 +1,17 @@
+.experiencia__texto {
+   font-size: 1.5rem;
+   line-height: 1.33;
+   max-width: 40ch;
+   margin-bottom: 60px;
+   color: #525252;
+}
+
+.experiencia__texto strong {
+   color: #141414;
+}
+
+@media (max-width: 800px) {
+   .experiencia__texto {
+      font-size: 1.25rem;
+   }
+}

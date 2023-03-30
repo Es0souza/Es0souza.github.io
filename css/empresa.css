@@ -1,0 +1,29 @@
+.empresa {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-column-start: 2;
+   grid-column-end: 4;
+   gap: 10px 20px;
+   padding: 20px;
+   background: #e0e0e0;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   position: relative;
+}
+
+.empresa::before {
+   content: "";
+   display: block;
+   width: 4px;
+   height: 20px;
+   background: radial-gradient(459.62% 1922.45% at 0% 0%, #25057E 0%, #C4586C 30%);
+   position: absolute;
+   top: 20px;
+   left: -4px;
+}
+
+@media (max-width: 400px) {
+   .empresa {
+      grid-template-columns: 1fr;
+   }
+}

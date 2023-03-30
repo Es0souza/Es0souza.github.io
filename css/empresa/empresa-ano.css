@@ -1,0 +1,19 @@
+.empresa__ano {
+   position: absolute;
+   top: 20px;
+   left: -100px;
+   text-align: right;
+   width: 80px;
+   color: #525252;
+   font-size: 0.875rem;
+
+}
+
+@media (max-width:800px) {
+   .empresa__ano {
+      position: initial;
+      order: 1;
+      width: initial;
+      text-align: left;
+   }
+}
