@@ -24,7 +24,7 @@
   <body>
     <header class="header">
       <img src="./img/Portfólio.svg" alt="Portfólio" width="136px" height="29px" />
-      <nav class="js-menu">
+      <nav data-menu="fcMenu">
         <ul class="header__menu">
           <li data-anime="1000" class="fadeInDown">
             <a href="#experiencia">Experiência</a>
@@ -34,6 +34,14 @@
           </li>
           <li data-anime="1000" class="fadeInDown">
             <a href="#contato">Contato</a>
+          </li>
+          <li data-anime="2000" class="fadeInRight">
+            <a
+              href="pdf/Curriculo Front-end edgard souza-fev.pdf"
+              download="Curriculo Front-end edgard souza-fev.pdf"
+              type="application/pdf"
+              >Download CV</a
+            >
           </li>
         </ul>
       </nav>
@@ -117,7 +125,7 @@
       </div>
     </section>
 
-    <section class="formacao js-scroll" id="formacao" aria-label="Formação">
+    <section data-item="scroll" class="formacao" id="formacao" aria-label="Formação">
       <div class="formacao__container">
         <h2 class="subtitulo">Formação</h2>
 
@@ -182,7 +190,7 @@
       </div>
     </footer>
 
-    <script src="script/plugins/simple-anime.js"></script>
-    <script src="script/script.js"></script>
+    <script src="scripts/plugins/simple-anime.js"></script>
+    <script type="module" src="scripts/script.js"></script>
   </body>
 </html>
