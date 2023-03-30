@@ -36,13 +36,13 @@
   }
 }
 
-.js .js-scroll {
+.js [data-item='scroll'] {
   opacity: 0;
   transform: translate3d(-2000px, 0, 0);
   transition: 1s;
 }
 
-.js .js-scroll.ativo {
+.js [data-item='scroll'].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 1s;
