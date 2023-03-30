@@ -1,0 +1,29 @@
+.formacao__subtitulo {
+   color: #000000;
+   max-width: 6ch;
+
+}
+
+.formacao__subtitulo {
+   font-size: 8rem;
+   line-height: 1;
+   text-transform: uppercase;
+   word-break: break-all;
+   max-width: 5ch;
+}
+
+.formacao__subtitulo {
+   color: #000000;
+}
+
+@media (max-width: 800px) {
+   .formacao__subtitulo {
+      font-size: 3rem;
+      text-transform: capitalize;
+      max-width: .8ch !important;
+   }
+
+   .formacao__subtitulo {
+      color: #ffffff;
+   }
+}

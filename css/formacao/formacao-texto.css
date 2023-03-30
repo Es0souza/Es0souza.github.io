@@ -1,0 +1,17 @@
+.formacao__texto {
+   font-size: 1.5rem;
+   line-height: 1.33;
+   max-width: 40ch;
+   margin-bottom: 60px;
+   color: #a3a3a3;
+}
+
+.formacao__texto strong {
+   color: #ffffff;
+}
+
+@media (max-width: 800px) {
+   .formacao__texto {
+      font-size: 1.25rem;
+   }
+}

@@ -2,8 +2,8 @@ if (window.SimpleAnime) {
   new SimpleAnime();
 }
 
-import initScrollSuave from "./components/scroll-suave.js";
+import initScrollSuave from "./modules/scroll-suave.js";
 initScrollSuave();
 
-import initAnimacaoScroll from "./components/scroll-animacao.js";
+import initAnimacaoScroll from "./modules/scroll-animacao.js";
 initAnimacaoScroll();

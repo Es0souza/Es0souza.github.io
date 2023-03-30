@@ -1,0 +1,15 @@
+.empresa__habilidades {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   align-content: start;
+}
+
+.empresa__habilidades li {
+   font-size: .875rem;
+   line-height: 1.4;
+   border: 4px;
+   border-radius: 4px;
+   background: #ffffff;
+   padding: 5px 10px;
+}
