@@ -48,14 +48,14 @@
   transition: 1s;
 }
 
-.js .tecnologo {
+.js .tecnologo__lista {
   opacity: 0;
-  transform: translate3d(1000px, 0, 0);
-  transition: 1.6s;
+  transform: translate3d(0, 200px, 0);
+  transition: 2s;
 }
 
-.js .tecnologo.ativo {
+.js .tecnologo__lista.ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
-  transition: 1.6s;
+  transition: 2s;
 }
