@@ -48,13 +48,13 @@
   transition: 1s;
 }
 
-.js .tecnologo__item {
+.js .tecnologo{
   opacity: 0;
   transform: translate3d(1000px, 0, 0);
   transition: 1.6s;
 }
 
-.js .tecnologo__item.ativo {
+.js .tecnologo.ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 1.6s;
