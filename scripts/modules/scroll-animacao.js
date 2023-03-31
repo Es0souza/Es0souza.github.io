@@ -1,6 +1,6 @@
 export default function initAnimacaoScroll() {
   const sections = document.querySelectorAll("[data-item='scroll']");
-  const listas = document.querySelectorAll("[data-item='scroll']");
+  const listas = document.querySelectorAll(".tecnologo__item");
   if (sections.length && listas.length) {
     const windowMetade = window.innerHeight * 0.3;
 
