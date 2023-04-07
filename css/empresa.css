@@ -5,10 +5,12 @@
    grid-column-end: 4;
    gap: 10px 20px;
    padding: 20px;
-   background: #e0e0e0;
+   background: radial-gradient(459.62% 1922.45% at 0% 0%, #25057E 0%, #C4586C 30%);
+   ;
    margin-bottom: 20px;
    border-radius: 4px;
    position: relative;
+   color: pink;
 }
 
 .empresa::before {
