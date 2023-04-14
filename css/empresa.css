@@ -16,12 +16,21 @@
 .empresa::before {
    content: "";
    display: block;
-   width: 4px;
+   width: 10px;
    height: 20px;
+   border-radius: 14px 7px 14px 7px;
    background: radial-gradient(459.62% 1922.45% at 0% 0%, #25057E 0%, #C4586C 30%);
    position: absolute;
    top: 20px;
    left: -4px;
+}
+
+@media (max-width: 1000px) {
+   .empresa {
+      grid-template-columns: 1fr;
+      grid-column-start: 1;
+      grid-column-end: 3;
+   }
 }
 
 @media (max-width: 400px) {
